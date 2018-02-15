@@ -25,7 +25,7 @@ def softmax_loss_naive(W, X, y, reg):
   dW = np.zeros_like(W)
   num_classes = W.shape[1]
   num_train = X.shape[0]
-  loss = 0.0
+  
 #   
 #   print "W shape", W.shape
 #   print "X shape", X.shape
